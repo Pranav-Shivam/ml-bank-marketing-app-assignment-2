@@ -1,4 +1,9 @@
-from datas.load_data import DataLoader
+#helper.py
+#imports
+try:
+    from datas.load_data import DataLoader
+except ImportError:
+    from .datas.load_data import DataLoader
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
