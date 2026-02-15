@@ -446,7 +446,7 @@ def main():
     
     with col1:
         uploaded_file = st.file_uploader(
-            "Upload Test Dataset (CSV format)",
+            "Please upload the test dataset in CSV format. If you do not have the file, you can download the Bank Marketing Dataset from Kaggle (https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset) and upload it here.",
             type=["csv"],
             help="Upload a CSV file with the same features as training data"
         )
