@@ -1,5 +1,9 @@
 # Bank Marketing Classification - Machine Learning Assignment 2
 
+## Name: Pranav Shivam
+## UID/Roll/Addmission Number: 2025AA05638
+**Program**: M.Tech (S1-25_AIMLCZG565)
+
 ## Problem Statement
 
 This project implements multiple machine learning classification models to predict whether a client will subscribe to a term deposit based on direct marketing campaign data from a Portuguese banking institution. The goal is to compare the performance of six different classification algorithms and deploy an interactive web application for model evaluation.
@@ -15,6 +19,7 @@ The prediction task is a **binary classification problem** where:
 **Dataset Source**: Bank Marketing Dataset (UCI Machine Learning Repository / Kaggle)
 
 **Dataset Overview**:
+- **Data Source**: https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset
 - **Total Instances**: 11,162 records
 - **Total Features**: 17 (16 features + 1 target variable)
 - **Feature Types**: Mixed (Categorical and Numerical)
@@ -113,15 +118,14 @@ ml-bank-marketing-app-assignment-2/
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation (this file)
 │
-├── models/
-│   ├── models.py                   # Model training and evaluation pipeline
-│   ├── helper.py                   # Data loading and preprocessing utilities
-│   └── utils/
-│       └── evaluation_metrics.py   # Metrics calculation functions
-│
-└── datas/
-    ├── load_data.py               # Data loader class
-    └── bank.csv                   # Bank marketing dataset
+├── model/
+    ├── models.py                   # Model training and evaluation pipeline
+    ├── helper.py                   # Data loading and preprocessing utilities
+    └── utils/
+    │       └── evaluation_metrics.py   # Metrics calculation functions
+    └── datas/
+         ├── load_data.py               # Data loader class
+         └── bank.csv                   # Bank marketing dataset
 ```
 
 ---
@@ -136,7 +140,7 @@ ml-bank-marketing-app-assignment-2/
 
 1. **Clone the repository**:
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/Pranav-Shivam/ml-bank-marketing-app-assignment-2/
 cd ml-bank-marketing-app-assignment-2
 ```
 
@@ -165,7 +169,7 @@ The app will open in your default browser at `http://localhost:8501`
 
 ### Using the Web Application
 
-1. **Model Selection**: Choose from 6 classification models using the sidebar dropdown
+1. **Model Selection**: Choose from 6 classification models using the dropdown
 2. **Upload Test Data**: Upload a CSV file with the same features as the training data (optional)
    - If no file is uploaded, the app uses the internal test split
 3. **View Results**: 
@@ -249,7 +253,7 @@ All models are evaluated using the following metrics:
 
 The application is deployed on Streamlit Community Cloud (FREE tier).
 
-**Live App URL**: [Your Streamlit App Link]
+**Live App URL**: [[Streamlit App Link](https://ml-bank-marketing-app-assignment-2-qxdaiehpynz2axjavecryo.streamlit.app/)]
 
 **Deployment Steps**:
 1. Push code to GitHub repository
@@ -285,18 +289,6 @@ The app typically deploys within 2-3 minutes.
 
 ---
 
-## Future Enhancements
-
-- [ ] Hyperparameter tuning using GridSearchCV or RandomizedSearchCV
-- [ ] Feature importance visualization for tree-based models
-- [ ] ROC curve and Precision-Recall curve plots
-- [ ] Model comparison charts (bar plots for metrics)
-- [ ] Cross-validation results display
-- [ ] Support for multi-class classification problems
-- [ ] Model explainability using SHAP values
-- [ ] Downloadable prediction results as CSV
-
----
 
 ## Assignment Compliance
 
@@ -335,8 +327,9 @@ This project fulfills all requirements for **Machine Learning Assignment 2**:
 
 ## Author
 
-**Name**: [Your Name]  
-**Program**: M.Tech (AIML/DSE)  
+**Name**: Pranav Shivam  
+**UID/Roll/Addmission Number**:  2025AA05638   
+**Program**: M.Tech (S1-25_AIMLCZG565)
 **Institution**: BITS Pilani - Work Integrated Learning Programmes Division  
 **Course**: Machine Learning  
 **Assignment**: Assignment 2  
@@ -360,11 +353,11 @@ This project is created for academic purposes as part of the Machine Learning co
 
 ## Contact
 
-For questions or issues, please contact: [Your Email]
+For questions or issues, please contact: 2025aa05638@wilp.bits-pilani.ac.in / pranav.shivam@cognida.ai 
 
-**GitHub Repository**: [Your GitHub Repo Link]  
-**Live Application**: [Your Streamlit App Link]  
+**GitHub Repository**: [\[GitHub Repo Link\]](https://github.com/Pranav-Shivam/ml-bank-marketing-app-assignment-2/)  
+**Live Application**: [\[Streamlit App Link\]](https://ml-bank-marketing-app-assignment-2-qxdaiehpynz2axjavecryo.streamlit.app/)  
 
 ---
 
-*Last Updated: February 2026*
+*Last Updated: 15, February 2026*
