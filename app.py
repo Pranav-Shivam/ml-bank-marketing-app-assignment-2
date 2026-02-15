@@ -322,7 +322,7 @@ def main():
     # Header
     st.title("🏦 Bank Marketing Classification App")
     st.markdown("""
-    ### 📊 Machine Learning Assignment 2 | M.Tech (S1-25_AIMLCZG565)
+    ### 📊 Machine Learning Assignment 2 | M.Tech (S1-25_AIMLCZG565) -- UID : 2025AA05638
     Train multiple classification models and evaluate their performance on bank marketing data.
     Predict whether a client will subscribe to a term deposit based on marketing campaign features.
     """)
@@ -682,7 +682,7 @@ def main():
     
     # Footer
     st.markdown("---")
-    st.caption("Machine Learning Assignment 2 | M.Tech (S1-25_AIMLCZG565) | BITS Pilani")
+    st.caption("Machine Learning Assignment 2 | M.Tech (S1-25_AIMLCZG565) -- UID : 2025AA05638 | BITS Pilani")
     st.caption("Built with Streamlit 🚀")
 
 
